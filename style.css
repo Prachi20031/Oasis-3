@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #bd65e3; 
+  color: #fff; 
+  font-family: sans-serif; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.temperature-converter {
+  background: #000; 
+  border-radius: 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  padding: 30px 20px;
+  min-width: 550px; 
+  height:450px;
+  text-align: center; 
+}
+.title {
+  font-size:x-large;
+  margin-bottom: 20px;
+  color: #f0f8ff;
+}
+.result {
+  margin: 20px 0;
+  font-size: medium;
+}
+.result-heading {
+  color: #d5f179;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+label {
+  color: #ccc;
+  font-size: small;
+  margin-bottom: 5px;
+}
+input,
+select {
+  background: #5e83cd;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+input:focus {
+  border: 1px solid #3399ff;
+}
+#convert-btn {
+  background: linear-gradient(to bottom, #169d1d, #52e66d); 
+  border: none;
+  outline: none;
+  color: #fff; 
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+}
